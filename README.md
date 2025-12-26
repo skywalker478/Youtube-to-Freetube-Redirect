@@ -58,4 +58,4 @@ web-ext sign --channel=unlisted
 
 ## License
 
-MIT © [Your Name](https://github.com/skywalker478)
+[MIT](LICENSE)
