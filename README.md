@@ -1,8 +1,8 @@
 # Youtube to Freetube Redirect
 
-Redirects YouTube links to your local FreeTube instance for private, ad-free viewing.
+<img src="https://addons.mozilla.org/user-media/addon_icons/2965/2965768-64.png?modified=1984a401">
 
-![Firefox Extension](https://img.shields.io/badge/Firefox-FF7139?style=flat&logo=firefoxhttps://img.shields.io/amo/v/youtube-to-freetube-redirect.svg?colorhttps://addons.mozilla.org/firefox/addon/youtube-to-freetube-redirect
+Redirects YouTube links to your local FreeTube instance for private, ad-free viewing.
 
 - Automatically redirects `youtube.com` to FreeTube
 - Works on all YouTube pages (watch, search, channel, etc.)
@@ -12,19 +12,11 @@ Redirects YouTube links to your local FreeTube instance for private, ad-free vie
 ## Installation
 
 ### Step 1: Install FreeTube
-Download and install [FreeTube](https://freetubeapp.io/) for your platform:
-
-| Platform | Download |
-|----------|----------|
-| [Windows](https://github.com/FreeTubeApp/FreeTube/releases/latest/download/FreeTube-Windows-x64.zip) | `.zip` |
-| [macOS](https://github.com/FreeTubeApp/FreeTube/releases/latest/download/FreeTube-macOS-x64.zip) | `.zip` |
-| [Linux AppImage](https://github.com/FreeTubeApp/FreeTube/releases/latest/download/FreeTube-linux-x86_64.0.17.0.AppImage) | `.AppImage` |
-| [Flatpak](https://flathub.org/apps/io.freetubeapp.FreeTube) | `flatpak install flathub io.freetubeapp.FreeTube` |
+Download and install [FreeTube](https://freetubeapp.io/) for your platform from [here](https://freetubeapp.io/#download)
 
 ### Step 2: Install Extension
 
-**Option A: Firefox Add-ons Store (Recommended)**
-<a href="https://addons.mozilla.org/firefox/addon/youtube-to-freetube-redirect/"><img src="https://img.shields.io/badge/Install%20from%20AMO-orange?style=flat&logo=firefox&logoColor=white" alt="Get it from Firefox Add-ons"></a>
+**Option A: [Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/youtube-to-freetube-redirect/) (Recommended)**
 
 **Option B: Manual Install (Latest)**
 1. Download `.xpi` from [Releases](https://github.com/YOURUSERNAME/youtube_to_freetube_redirect/releases)
@@ -32,16 +24,10 @@ Download and install [FreeTube](https://freetubeapp.io/) for your platform:
 
 ## Configuration
 
-No setup required! Configure FreeTube port in Firefox settings if different from default (usually `1080` or `1084`).
+No setup required!
 
 ## Screenshots
 
-![Before/After redirect](screenshots/redirect-demoTube Setup
-
-Ensure FreeTube external API is enabled:
-```
-Settings → Advanced → External Player → Enable API (port 1080)
-```
 
 ## Development
 
@@ -51,9 +37,6 @@ npm install -g web-ext
 
 # Run locally for testing
 web-ext run
-
-# Build & sign for distribution
-web-ext sign --channel=unlisted
 ```
 
 ## License
